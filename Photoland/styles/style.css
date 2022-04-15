@@ -1,0 +1,132 @@
+body {
+    background-color: bisque;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: Black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: bold;
+    font-size: 50px;
+
+}
+
+h2 {
+    text-align: center;
+    color: peru;
+    padding-top: 10px;
+
+}
+
+nav a {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+.image {
+    height: 100px;
+    width: 2060px;
+    background-image: url(https://th.bing.com/th/id/OIP.rppL0YeistLcm8lx4qtfuwHaBq?w=296&h=78&c=7&r=0&o=5&dpr=1.25&pid=1.7);
+    padding-bottom: 50px;
+    padding-top: 1px;
+
+}
+
+.header {
+    padding-top: 80px;
+    color: black;
+    font-size: 70px;
+    text-align: center;
+    padding-right: 500px;
+
+
+
+}
+
+.frame {
+    float: left;
+    width: 30px;
+    height: 260px;
+    padding-left: 10px;
+    position: static
+}
+
+.container {
+    display: flex
+}
+
+.container2 {
+    margin-right: 300px;
+    width: 50%;
+    padding: 20px;
+}
+
+.image1 {
+    width: 200px;
+    height: 20px;
+    padding: 20px;
+}
+
+.row {
+    margin: 8px -16px;
+    padding: 10px
+}
+
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    padding-top: 100px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 5px;
+    padding-top: 0;
+}
+
+.main nav {
+    position: fixed;
+    top: 100px;
+    padding-top: 50px;
+}
+
+.main {
+    top: 80px;
+    padding: 500;
+
+}
+
+.main h1 {
+    padding-top: 100px;
+}
+
+.table {
+    float: right;
+    padding-top: 0px;
+}
+
+.table ul {
+    padding-left: 20px;
+}
+
+footer {
+    display: grid;
+    grid-template-rows: 50% 30% 20%;
+    grid-template-columns: 20 20 20 40;
+    height: 5px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
